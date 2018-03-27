@@ -1,0 +1,45 @@
+{
+    "name": "boilerplate-typescript-react",
+    "version": "1.0.0",
+    "description": "TypeScript and React Boilerplate",
+    "devDependencies": {
+        "@types/node": "^9.4.7",
+        "@types/react": "^16.0.41",
+        "@types/react-dom": "^16.0.4",
+        "css-loader": "^0.28.11",
+        "json-loader": "^0.5.7",
+        "less-loader": "^4.1.0",
+        "node-sass": "^4.8.3",
+        "nodemon": "^1.14.3",
+        "sass-loader": "^6.0.7",
+        "source-map-loader": "^0.2.3",
+        "style-loader": "^0.20.3",
+        "ts-loader": "^4.1.0",
+        "ts-node": "^5.0.1",
+        "tslint": "^5.9.1",
+        "tslint-loader": "^3.6.0",
+        "typescript": "^2.7.2",
+        "url-loader": "^1.0.1",
+        "webpack": "^4.2.0",
+        "webpack-cli": "^2.0.13",
+        "webpack-dev-server": "^3.1.1"
+    },
+    "dependencies": {
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0"
+    },
+    "scripts": {
+        "start": "webpack-dev-server --public 127.0.0.1:3333 --inline",
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aequabit/boilerplate-typescript-react.git"
+    },
+    "author": "aequabit",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/aequabit/boilerplate-typescript-react/issues"
+    },
+    "homepage": "https://github.com/aequabit/boilerplate-typescript-react#readme"
+}
