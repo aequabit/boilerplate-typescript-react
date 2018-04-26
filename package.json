@@ -4,8 +4,8 @@
     "description": "TypeScript and React Boilerplate",
     "devDependencies": {
         "@types/node": "^9.4.7",
-        "@types/react": "^16.0.41",
-        "@types/react-dom": "^16.0.4",
+        "@types/react": "^16.3.12",
+        "@types/react-dom": "^16.0.5",
         "css-loader": "^0.28.11",
         "json-loader": "^0.5.7",
         "less-loader": "^4.1.0",
@@ -25,8 +25,8 @@
         "webpack-dev-server": "^3.1.1"
     },
     "dependencies": {
-        "react": "^16.2.0",
-        "react-dom": "^16.2.0"
+        "react": "^16.3.2",
+        "react-dom": "^16.3.2"
     },
     "scripts": {
         "start": "webpack-dev-server --public 127.0.0.1:3333 --inline",
