@@ -15,10 +15,15 @@ module.exports = {
         library: 'app'
     },
     resolve: {
+        modules: ['node_modules', 'src'],
         extensions: ['.ts', '.tsx', '.js', '.json']
     },
     module: {
         rules: [
+            {
+                test: /\.(woff|woff2|eot|svg|png|jpg|ttf|gif)$/,
+                use: 'url-loader'
+            },
             {
                 test: /\.(css|scss)$/,
                 use: ['style-loader', 'css-loader', 'sass-loader']
@@ -71,3 +76,4 @@ module.exports = {
               })
           ]
 };
+
